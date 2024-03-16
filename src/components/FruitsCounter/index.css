@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.bg-container {
+  height: 100vh;
+  background-color: #ffd569;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 900;
+}
+.count {
+  color: #ffd569;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+.button1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  height: 35px;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.sm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+.mango {
+  height: 150px;
+  width: 120px;
+}
+
+.banana {
+  height: 150px;
+  width: 120px;
+}
+.fruitContainer {
+  display: flex;
+  flex-direction: row;
+}
